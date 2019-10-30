@@ -1,3 +1,4 @@
+package blog;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
@@ -9,7 +10,7 @@ public class ObjectifyWebListener implements ServletContextListener {
 
   @Override
   public void contextInitialized(ServletContextEvent event) {
-    ObjectifyService.init();
+//    ObjectifyService.init();
     // This is a good place to register your POJO entity classes.
     // ObjectifyService.register(YourEntity.class);
   }
