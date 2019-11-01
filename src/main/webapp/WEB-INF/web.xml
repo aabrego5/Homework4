@@ -20,6 +20,10 @@
 	
 	</filter-mapping>
   <welcome-file-list>
+<<<<<<< HEAD
     <welcome-file>WEB-INF/BlogTest/blodlanding.html</welcome-file>
+=======
+    <welcome-file>BlogTest/blodlanding.html</welcome-file>
+>>>>>>> f86c5201398200919496d71616a9a745cc102edf
   </welcome-file-list>
 </web-app>
